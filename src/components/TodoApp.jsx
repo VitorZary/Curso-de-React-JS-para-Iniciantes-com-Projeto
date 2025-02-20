@@ -59,7 +59,7 @@ const TodoApp = () => {
         <input
           type="text"
           className="input-field"
-          placeholder="Adcione uma tarefa..."
+          placeholder="Adicione uma tarefa..."
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
