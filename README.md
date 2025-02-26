@@ -11,4 +11,4 @@ _Requisitos implementados com sucesso!!_
 ### Curso realizado pelo Canal do YouTube: Matheus Battisti - Hora de Codar
 
 
-Projeto disponível em https://curso-de-react-js-para-iniciantes-com-vitor-hugo-zarys-projects.vercel.app/
+Projeto disponível em https://curso-de-react-js-para-iniciantes-com-projeto.vercel.app/
