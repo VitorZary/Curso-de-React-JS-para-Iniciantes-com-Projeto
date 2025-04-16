@@ -75,7 +75,7 @@ const TodoApp = () => {
       <ul className="todo-list">
         {todos.map((todo) => (
           <li key={todo.id} className="todo-item">
-            {todo.text}
+            <p>{todo.text}</p>
             <button
               value={todo.id}
               className="delete-button"
