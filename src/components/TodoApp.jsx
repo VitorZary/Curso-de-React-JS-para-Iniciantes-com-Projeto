@@ -33,7 +33,6 @@ const TodoApp = () => {
 
   useEffect(() => {
     if (localStorage.getItem("todos") != null) {
-      console.log("UE 1");
       setTodos(JSON.parse(localStorage.getItem("todos")));
     }
   }, []);
@@ -47,7 +46,7 @@ const TodoApp = () => {
 
   const deleteTask = (e) => {
     const id = e.target.getAttribute("value");
-    console.log(id);
+
     setTodos((prevTodos) => prevTodos.filter((td) => td.id != id));
   };
 
